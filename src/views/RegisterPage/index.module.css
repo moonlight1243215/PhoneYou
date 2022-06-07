@@ -1,0 +1,219 @@
+.background {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, #7c759d 50%, #fff 50%);
+    display: flex;
+}
+
+.logo {
+    background-image: url(../../assets//logo.png);
+    background-size: cover;
+    width: 23vw;
+    height: 31vw;
+}
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32vw;
+    padding-bottom: 8vh;
+    background: #79858B;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.15);  
+    backdrop-filter: blur(5px);
+    box-shadow: 15px 15px 32px -5px #7c759d;
+}
+
+.title {
+    margin-top: 7vh;
+    margin-bottom: 3vh;
+    color: #79858B;
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+.input {
+    width: 83%;
+    height: 6vh;
+    background: rgba(255, 255, 255, 0.644);
+    outline: none;
+    padding-left: 1.5vw;
+    color: #79858B;
+    font-size: 1.25vw;
+    font-family: 'popins';
+    border: none;
+}
+
+.inputBorder {
+    width: 100%;
+    height: 6vh;
+    background: rgba(255, 255, 255, 0.644);
+    outline: none;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    color: #79858B;
+    font-size: 1.25vw;
+    font-family: 'popins';
+    border: none;
+}
+
+.passwordBox {
+    border-radius: 0.25vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5.5vh;
+    width: 83%;
+    height: 7vh;
+    box-shadow: 0px 4px 3px 1px #00000025;
+    border: 1px solid #79858B;
+}
+
+.input::placeholder {
+    color: #79858B;
+}
+
+.eye {
+    font-size: 30px;
+    margin-right: 1vw;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+}
+
+.registerButton {
+    margin-top: 5.5vh;
+    padding: 2vh 3vw;
+    border-radius: 0.25vw;
+    background: #DAE3E7;
+    color: #79858B;
+    border: none;
+    font-weight: 900;
+    font-size: 1.25vw;
+    font-family: 'Popins';
+    transition: 0.75s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.registerButton:hover {
+    background: #bdc6ca;
+    color: #928fa1;
+}
+
+.line {
+    margin-top: 5.5vh;
+    height: 1px;
+    width: 83%;
+    background: #DAE3E7;
+}
+
+.registerBox {
+    display: flex;
+    margin-top: 2vh;
+}
+
+.information {
+    color: #79858B;
+    font-size: 1vw;
+    font-family: 'popins';
+}
+
+.registerLink {
+    color: #615696;
+    font-size: 1vw;
+    padding-left: 5px;
+    font-family: 'popins';
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.registerLink:hover {
+    color: #2b2066;
+}
+
+@media(min-width: 1025px) {
+    .background {
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+@media(max-width: 1024px) {
+    .background {
+        background: #fff;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        width: 12vw;
+        height: 15vw;
+    }
+
+    .registerForm {
+        width: 85%;
+    }
+
+    .title {
+        font-size: 9vw;
+        margin-bottom: 2vh;
+        margin-top: 5vh;
+    }
+
+    .inputBorder {
+        font-size: 3vw;
+    }
+
+    .input {
+        font-size: 3vw;
+    }
+
+    .registerButton {
+        margin-top: 5.5vh;
+        font-size: 5vw;
+    }
+
+    .information,
+    .registerLink {
+        margin-top: 2vh;
+        font-size: 3.5vw;
+    }
+}
+
+@media(max-width: 500px) {
+    .registerForm {
+        width: 90%;
+    }
+
+    .title {
+        font-size: 10vw;
+    }
+
+    .input {
+        font-size: 5vw;
+    }
+
+    .inputBorder {
+        font-size: 5vw;
+    }
+
+    .registerButton {
+        font-size: 6vw;
+        padding: 2vh 15vw;
+    }
+
+    .information,
+    .registerLink {
+        font-size: 5vw;
+    }
+}

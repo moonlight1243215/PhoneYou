@@ -1,0 +1,84 @@
+.container {
+    width: 100%;
+    background: #9F9F9F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBox {
+    margin-top: 5vh;
+    width: 90%;
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    position: sticky;
+    top: 10.996916752312435vh;
+    width: 19.791666666666668vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.leftBox {
+    position: sticky;
+    top: 10.996916752312435vh;
+    width: 14vw;
+    height: 100%;
+}
+
+.center {
+    width: 47.916666666666664vw;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1025px) {
+    .leftBox, 
+    .right {
+        display: none;
+    }
+
+    .center {
+        width: 100%;
+    }
+
+    .postForm  {
+        width: 100%;
+    }
+
+    .contentBox {
+        justify-content: center;
+    }
+}

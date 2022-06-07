@@ -1,0 +1,19 @@
+.box {
+    margin-left: 0.5vw;
+    margin-top: 2.5vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 1vw 0 1vw;
+}
+
+.avatar {
+    width: 2.7vw;
+}
+
+.userName {
+    margin-left: 0.5vw;
+    color: #625B86;
+    font-size: 0.83vw;
+    font-family: 'Poppins';
+}

@@ -1,0 +1,98 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, #7c759d 50%, #fff 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(../../assets//logo.png);
+    background-size: cover;
+    width: 23vw;
+    height: 31vw;
+}
+
+.thanksForm {
+    max-width: 90vw;
+    padding: 5vw;
+    background: #79858B;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.15);  
+    backdrop-filter: blur(5px);
+    box-shadow: 15px 15px 32px -5px #7c759d;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 1.5vw;
+}
+
+.logoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.title {
+    color: #79858B;
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+.text {
+    color: #958FB3;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.email {
+    font-size: 1.5vw;
+    color: #7c759d;
+    font-weight: 600;
+}
+
+@media(max-width: 1025px) {
+    .container {
+        background: linear-gradient(180deg, #7c759d 60%, #fff 40%);
+    }
+
+    .thanksForm {
+        background-color: rgba(255, 255, 255, 0.514);  
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 35vw;
+        height: 46vw;
+    }
+
+    .textBox {
+        justify-content: center;
+        width: 100%;
+        height: 40%;
+        padding: 5vw;
+    }
+
+    .logoBox {
+        justify-content: center;
+        width: 100%;
+        height: 60%;
+    }
+
+    .title {
+        font-size: 5vw;
+    }
+
+    .text {
+        font-size: 3vw;
+    }
+}

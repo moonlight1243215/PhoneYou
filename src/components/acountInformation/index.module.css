@@ -1,0 +1,83 @@
+.left {
+    width: 14vw;
+    background: #fff;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    border-left: 5px solid #958FB3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2.5vh;
+}
+
+.avatar {
+    background-image: url(../../assets/avatar.png);
+    background-size: cover;
+    width: 7vw;
+    height: 7vw;
+    margin-top: 3vh;
+}
+
+.userName {
+    color: #625B86;
+    font-size: 1.25vw;
+    font-weight: 900;
+    font-family: 'Poppins';
+    margin-top: 2vh;
+}
+
+.acountDataBox {
+    margin-top: 3vh;
+}
+
+.acountData {
+    margin-bottom: 1vh;
+    color: #625B86;
+    font-size: 0.9vw;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.line {
+    margin-top: 3vh;
+    height: 1px;
+    width: 95%;
+    background: #9F9F9F;
+}
+
+.generalData {
+    margin-top: 2.5vh;
+    color: #625B86;
+    font-size: 1vw;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.wheel {
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.8vw;
+    height: 2.8vw;
+    background: #FFF47D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    color: #7C759D;
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+
+.wheel2 {
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.8vw;
+    height: 2.8vw;
+    background: #DAE3E7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    color: #7C759D;
+    font-size: 1.4vw;
+    font-weight: 500;
+}
